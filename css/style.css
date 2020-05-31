@@ -1,0 +1,114 @@
+/* css reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* css reset */
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* header section */
+section.jumbotron-img{
+background-color: #fff;
+background-image: url('../img/Illustrator/Background.svg');
+background-size:100%;
+background-position: 50px -50px;
+background-repeat: no-repeat;
+height: 400px;
+margin-top: -60px;
+}
+
+section.jumbotron-img .slogan h4{
+    font-size: 4vw;
+    font-weight: 400;
+}
+section.jumbotron-img .slogan h5{
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+
+section.jumbotron-img .slogan{
+    margin-top: 20vh;
+    position: absolute;
+}
+
+
+@media only screen and (min-width: 600px) {
+    section.jumbotron-img{
+        background-position: 80px -150px;
+        height: 800px;
+    }
+
+    section.jumbotron-img .slogan{
+        margin-top: 30vh;
+        position: absolute;
+    }
+}
+@media only screen and (min-width: 992px) {
+    section.jumbotron-img{
+        background-position: 100px -150px;
+        height: 800px;
+    }
+
+    section.jumbotron-img .slogan{
+    margin-top: 40vh;
+    position: absolute;
+}
+}
+
+
+/* button */
+.btn-explore{
+    background-color: #27DEBF !important;
+    border-radius: 20px;
+}
+
+.btn-explore:hover{
+    background-color: rgb(28, 255, 217) !important;
+}
+/* button */
+
+
+/* end header section */
+
