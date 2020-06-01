@@ -48,6 +48,17 @@ body{
     font-family: 'Josefin Sans', sans-serif;
 }
 
+.f-20{
+    font-size: 20px;
+}
+
+.f-40{
+    font-size: 40px;
+}
+
+.text-1{
+color: #27DEBF;
+}
 /* button */
 .btn-explore{
     background-color: #27DEBF !important;
@@ -209,10 +220,26 @@ section.designer .about-me h4.judul{
         height: 500px;
     }
 
+
     section.services .card-2{
         width: 600px;
         height: 250px;
     }
+
+    section.services .card-4{
+        position: relative;
+        width: 600px;
+        height: 250px;
+    }
+
+    section.services .card-4 .card-body .dot-2{
+        position: absolute;
+        right: -50px;
+        top: 50px;
+        z-index: -1;
+    }
+    
+   
     
     section.services .card-1 .judul::after{
         content: '';
@@ -235,3 +262,22 @@ section.designer .about-me h4.judul{
         font-size: 33px;
     }
 /* section services */
+
+
+/* section footer */
+    section.footer{
+        height: 600px;
+        background-image: url('../img/Component/11.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    section.footer .footer-component{
+        margin-left: -146px;
+    }
+    
+    section.footer .footer-info{
+        padding: 50px 0;
+    }
+/* section footer */
