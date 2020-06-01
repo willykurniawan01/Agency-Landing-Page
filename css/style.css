@@ -66,6 +66,16 @@ body{
     background-color: rgb(28, 255, 217) !important;
 }
 
+.btn-white{
+    background-color: #fff !important;
+    color: #000;
+}
+
+.btn-white:hover{
+    background-color: #000 !important;
+    color: #fff;
+}
+
 
 /* button */
 
@@ -179,3 +189,49 @@ section.designer .about-me h4.judul{
 
 
 /* section designer */
+
+
+/* section services */
+    section.services {
+        padding:200px 0;
+    }
+
+    section.services .card{
+        border: none;
+        box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.18);
+        padding: 50px;
+        font-size: 18px;
+        font-weight:400;
+    }
+
+    section.services .card-1{
+        width: 400px;
+        height: 500px;
+    }
+
+    section.services .card-2{
+        width: 600px;
+        height: 250px;
+    }
+    
+    section.services .card-1 .judul::after{
+        content: '';
+        border-bottom: dashed 5px #27DEBF;
+        display: block;
+        width:40%;
+        border-spacing: 10px 10px;
+        margin-top: 20px;
+    }
+    
+    
+    section.services .card-3{
+        background-color: #27DEBF;
+        color: #fff;
+        width: 400px;
+        height: 500px;
+    }
+    
+    section.services .card .judul{
+        font-size: 33px;
+    }
+/* section services */
